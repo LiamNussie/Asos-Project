@@ -1,0 +1,431 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    max-width: 100%;
+    background-color: #f8f8f8;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+.first-row {
+    background-color: #f8f8f8;
+    display: block;
+    margin-left: 1140px;
+   
+    
+}
+ul {
+    display: flex;
+}
+
+.market {
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 13px;
+    border-left: 1px solid darkgray;
+    padding-left: 10px;
+    display: block;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: #666666;
+    
+}
+
+
+li {
+    list-style: none;
+    text-align: end;
+    
+}
+
+.link  {
+    margin-right: 10px;
+    text-decoration: none;
+    text-align: end;
+    
+}
+
+
+
+
+
+
+.nav-row {
+    background-color: #2D2D2D;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+
+}
+
+.exo {
+    display: flex;
+    
+
+}
+
+.row2-link {
+    padding-right: 30px;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 150%;
+    border-right: 1px solid darkgray;
+    color: whitesmoke;
+}
+
+
+
+.half1 {
+    
+}
+
+.half2 {
+    padding-left: 20px;
+}
+
+.dropdown {
+    
+    padding-right: 50px;
+    margin-right: 0;
+    margin-left: 0
+    ;
+    
+}
+
+.dropdown-in {
+    padding-right: 50px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.example {
+    margin-left: 0;
+    
+    
+}
+
+.searchfield {
+    padding-right: 490px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 7px;
+    padding-bottom: 11px;
+    border-radius: 15px;
+    border: none;
+    
+    
+}
+
+.search-bt {
+    margin-left: 0;
+    padding: 4px 4px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.buttons {
+    padding-left: 20px;
+    padding-top: 3px;
+    padding-right: 5px;
+}
+
+.buttonx {
+    padding: 4px 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.third-row {
+    background-color: rgb(255, 169, 175);
+    display: flex;
+    padding-top: 14px;
+    padding-bottom: 12px;
+    color: rgb(56, 56, 56);
+    
+    
+}
+
+.h43 {
+    margin-left: 450px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 2px solid rgb(56, 56, 56);
+   
+    
+}
+.h42 {
+    
+    
+}
+.h41 {
+    margin-left: 35px;
+    margin-right: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid rgb(56, 56, 56);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-body {
+    background-image: url(../images/asos.jpg);
+    height: 670px;
+    text-align: center;
+    
+}
+
+.mainbody-text {
+    
+    padding-top: 230px;
+    
+}
+
+.mb1 {
+    padding-bottom: 5px;
+    font-size: 55px;
+    color: #ffffff;
+}
+.mb2 {
+    padding-bottom: 30px;
+    color: #ffffff;
+    font-weight: normal;
+}
+.mb3 {
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 440px;
+    background-color: #ffffff;   
+}
+.mb4 {
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 25px;
+    margin-left: 10px;
+    background-color: #ffffff;
+   
+}
+.mb3:hover {
+    background-color: black;
+    color: white;
+    
+}
+.mb4:hover {
+    background-color: black;
+}
+#mbbt:hover {
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.mb-buttons {
+    display: flex;
+    margin-left: 55px;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+.sub-sub-footer {
+    background-color: #f8f8f8;
+    height: 50px;
+    text-align: center;
+    word-spacing: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.snapchat {
+    background-color: yellow;
+    padding: 5px 5px;
+    border-radius: 15px;
+    border: 1px solid darkgray;
+}
+.twitter {
+    background-color: #1da1f2;
+    padding: 5px 5px;
+    border-radius: 15px;
+    border: 1px solid darkgray;
+}
+.instagram {
+    background-color: rgb(112, 80, 112);
+    padding: 5px 5px;
+    border-radius: 15px;
+    border: 1px solid darkgray;
+}
+.facebook{
+    background-color: #056eaf;
+    padding: 5px 7px;
+    border-radius: 15px;
+    border: 1px solid darkgray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sub-footer {
+    background-color: #EEEEEE;
+    height: 220px;
+    display: flex;
+    line-height: 2.5;
+    font-size: 15px;
+    color: #666666;
+    
+}
+.col-1 {
+    margin-right: 170px;
+    margin-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.col-2 {
+    margin-right: 200px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.col-3 {
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+#footlinks {
+    font-weight: normal;
+}
+#footlinks:hover {
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    background-color: #DDDDDD;
+    display: flex;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    font-size: 11px;
+}
+.ft1 {
+    margin-right:950px;
+    margin-left: 20px;
+}
+#fl {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-left: 1px solid darkgrey;
+}
+#fl:hover {
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.row:before,
+.row:after,
+.group:before,
+.group::after{
+    content: "";
+    display: table;
+}
+
+.group:after{
+    clear: both;
+}
+
+.group {
+    zoom: 1;
+}
+
